@@ -1,12 +1,14 @@
 # vectorbt-examples
 
-Example usage for [vectorbt](https://github.com/polakowo/vectorbt) library for backtesting. Notebooks saved in this repository are to log my learning process and to have some helpful code snippets saved.
+Example usage for [vectorbt](https://github.com/polakowo/vectorbt) library for backtesting. Notebooks saved in this repository are to log my learning process.
+
+This is not clean code, but rather a collection of code snippets that I found helpful.
 
 [vectorbt documentation](https://vectorbt.dev/)
 
 ## Init
 
-Create and activate conda env (`vectorbt` doesn't support pyton 3.11 yet)
+Create and activate conda env (`vectorbt` doesn't support pyton 3.11 at this point in time)
 ```bash
 conda create --name vectorbt python=3.10
 conda activate vectorbt
@@ -20,6 +22,6 @@ pip install -r requirements.txt
 ### Helpful commands
 
 ```bash
-pip install ipykernel numpy pandas ccxt tqdm vectorbt
+pip install ipykernel numpy pandas ccxt tqdm vectorbt nbformat
 pip freeze > requirements.txt
 ```
