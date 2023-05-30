@@ -6,6 +6,8 @@ This is not clean code, but rather a collection of code snippets that I found he
 
 [vectorbt documentation](https://vectorbt.dev/)
 
+[https://github.com/TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python)
+
 ## Init
 
 Create and activate conda env (`vectorbt` doesn't support pyton 3.11 at this point in time)
